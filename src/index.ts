@@ -1,5 +1,4 @@
-
-export default class Lazy<T>{ 
+export class Lazy<T>{ 
     private _value: T;
     private getter: () => T;
     constructor(getter: () => T) {
@@ -11,4 +10,6 @@ export default class Lazy<T>{
         }
         return this._value;
     }
-}
+};
+
+export default Lazy;
