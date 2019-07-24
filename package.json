@@ -1,0 +1,25 @@
+{
+	"name": "lazy-js",
+	"main": "dist/index.js",
+	"version": "0.1.0",
+	"description": "",
+	"scripts": {
+		"clean": "rm -rf dist",
+		"lint": "tslint --project ./",
+		"build": "tsc",
+		"watch": "tsc --watch"
+	},
+	"author": "David Coxon",
+	"license": "ISC",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"concurrently": "^3.5.1",
+		"path": "^0.12.7",
+		"ts-loader": "^4.3.0",
+		"tslint": "^5.10.0",
+		"typescript": "3.0.1",
+		"webpack": "^4.29.4",
+		"webpack-cli": "3.2.3"
+	}
+}
