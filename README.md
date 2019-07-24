@@ -42,3 +42,5 @@ console.log(await asyncFoo.value);
 Because I was tired of writing the same bit of code over and over again.
 
 It's an especially useful abstraction when dealing with classes, as they are constructed synchronously, but you might want to setup up something async in the constructor.
+
+In the spirit of laziness, no tests were harmed in the making of this package.
